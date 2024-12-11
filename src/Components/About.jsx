@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Typography, Box } from "@mui/material";
-import Footer from "./Footer";
 
 const About = () => {
   return (
