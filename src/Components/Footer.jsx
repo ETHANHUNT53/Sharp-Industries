@@ -52,6 +52,10 @@ const Footer = () => {
               <Typography variant="body2">
                 Leading the way in industrial innovation and excellence.
               </Typography>
+              <br />
+              <Typography variant="body1" >GSTIN: 09ABHPJ9184C2ZF</Typography>
+              <br />
+              <Typography variant="body1" >Address: Transport Nagar, Gati Chauraha Prayagraj (UP) India</Typography>
             </Box>
           </Grid>
 

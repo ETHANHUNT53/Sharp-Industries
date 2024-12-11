@@ -39,7 +39,14 @@ const ProductCard = ({ product }) => {
                     justifyContent: { xs: 'center', md: 'flex-start' } 
                 }}>
                 <Button size="small" sx={{
+                    borderRadius: '100px',
                     border: '1px solid cyan',
+                    paddingY: '0.5rem',
+                    px: '0.5rem',
+                    '&:hover': {
+                        backgroundColor: '#005f73',
+                        color: 'white',
+                    }
                 }} onClick={handleGetQuoteClick}>Get Best Price</Button>
             </CardActions>
         </Card>
